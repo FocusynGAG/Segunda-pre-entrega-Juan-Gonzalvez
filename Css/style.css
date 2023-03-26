@@ -9,6 +9,31 @@
     height: 90px;
 }
 
+.buscar{
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.buscar input{
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+
+}
+
+.searchbutton{
+    display: flex;
+    justify-content: right;
+    width: 60px;
+    height: 40px;
+}
+
 .d-flex{
     width: 350px;
     float: right;
