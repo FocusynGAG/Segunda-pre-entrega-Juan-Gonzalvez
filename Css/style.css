@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgba(96, 206, 169, 0.781);
+}
+
 .navbar{
     background-color: rgba(104, 165, 223, 0.781);
     height: 90px;
@@ -98,6 +102,10 @@ nav a{
    margin-left: 40px;
 }
 
+h1{
+    display:flex;
+    justify-content: center;
+}
 
 h2{
     font-family: sans-serif; 
@@ -223,7 +231,7 @@ body {
 form {
   margin: 20px auto;
   max-width: 500px;
-  background-color: #fff;
+  background-color: rgba(104, 165, 223, 0.781);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
